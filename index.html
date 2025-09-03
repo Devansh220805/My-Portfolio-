@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="nav-bar">
+        <div class="nav-flex">
+            <div class="nav-flex1">
+                <span>Portfolio</span>
+            </div>
+            <div class="nav-flex2">
+                <a class="nav-a" href="#Home">Home</a>
+                <a class="nav-a" href="#About">About</a>
+                <a class="nav-a" href="#Skills">Skills</a> 
+                <a class="nav-a" href="#Project">Project</a>
+                <a class="nav-a" href="#Contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+<main> 
+    <!--HOME-->
+    <section class="Home" id="Home">
+        <div class="Home2">
+            <img class="Portfolio-img" src="image/myImage.png" alt="My Image">
+        </div>
+        <div class="Home1">
+            <h1 class="Home_heading">Hi, I'm Devansh</h1>
+            <p class="Home_sub-heading">Front-end Web Developer</p>
+            <p class="Home_para">I create beautiful, responsive websites and web applications with modern technologies. Passionate about clean code and great user experiences.</p>
+            <a href="#Contact"><button class="Home-button">Contact Me</button></a>
+        </div>
+        
+    </section>
+    <hr>
+    <section class="About" >
+        <div id="About">
+            <h1 class="About-heading" id="h1">About Me</h1><br>
+            <div class="About1">
+                <img class="About1-img" src="image/computer about.jpg" alt="">
+            </div>
+            <div class="About2">
+                <br>
+                <p class="About-para">I am currently pursuing my Bachelor of Computer Applications (BCA) with a focus on building a strong foundation in computer science and technology. I am gaining valuable skills in programming (JAVA, HTML, CSS, JS), digital systems. I'm also developing a solid understanding of computing and problem-solving techniques.I'm passionate about exploring new technologies and applying my knowledge to solve real-world problems.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="Skills">
+        <div id="Skills">
+            <div class="Skills-heading">
+                <h2 id="h1">Skills</h2>
+            </div>
+            <div class="skill-card-width">
+                <div class="Skills1">
+                    <!-- Skill 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img class="icon" src="image/HTML.jpg" alt="">
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img class="icon" src="image/CSS.png" alt="">
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img class="icon" src="image/JavaScript.jpg" alt="">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img class="icon" src="image/JAVA.png" alt="" >
+                        </div>
+                        <h3>JAVA</h3>
+                    </div>
+                    <!-- Skill 5 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img class="icon" src="image/MYSQL.png" alt="" >
+                        </div>
+                        <h3>My SQL</h3>
+                    </div>
+                    <!-- Skill 6 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img class="icon" src="image/Wordpress.jpg" alt="" >
+                        </div>
+                        <h3>WordPress</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="Project" >
+        <div id="Project">
+            <div class="Project1">
+                <h2 id="h1">Projects</h2>
+            </div>
+            <div class="Project2">
+                <!-- Project1 -->
+                <div class="Project-card">
+                    <h2>BookNest</h2>
+                    <br>
+                    <img src="image/Booknest.png" alt="BookNest">
+                    <br><br>
+                    <p>first project: BookNest – a website for book Reading. Using what I’ve learned about HTML and CSS over the past two weeks, I built a simple place to explore books</p>
+                </div>
+                <div class="Project-card">
+                    <h2>Percentage-To-CGPA-Calculator</h2>
+                    <br>
+                    <img src="image/CGPA Calculator.png" alt="Percentage-To-CGPA-Calculator">
+                    <br><br>
+                    <p>Percentage to CGPA Calculator This is my very first JavaScript project after learning Basics</p>
+                </div>
+                <div class="Project-card">
+                    <h2>Amazon-Clone</h2>
+                    <br>
+                    <img src="image/Amazon clone.png" alt="Amazon-Clone">
+                    <br><br>
+                    <p>Amazon’s homepage built using HTML and CSS. This project focuses on practicing fundamental concepts such as semantic HTML, CSS Flexbox, Grid layout effects to create a clean and structured user interface similar to the original site.</p>
+                </div>
+                <div class="Project-card">
+                    <h2> AI Mental Health Companion</h2>
+                    <br>
+                    <img src="image/Coming Soon.png" alt="Coming Soon.......">
+                    <br><br>
+                    <p>Coming Soon.......empathetic support, mood tracking, and personalized exercises - completely private and accessible anytime, anywhere</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="Contact">
+        <div id="Contact">
+            <div class="Contact-heading">
+                <h2 id="h1">Contact Me</h2>
+            </div>
+            <div class="contact-Form">
+                <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project or inquiry..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    Send Message
+                </button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <div class="Follow-me">
+                <h2 id="h1">Follow Me</h2>
+            </div>
+            <div class="icon-grid">
+                <div>
+                    <a href="https://www.instagram.com/_devansh_8?igsh=MWNlczN2dG1sZmtpbg==" target="_blank"><img class="follow-icon" src="image/insta.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/devansh-882311327" target="_blank"><img class="follow-icon" src="image/linkdin.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://github.com/Devansh220805" target="_blank"><img class="follow-icon" src="image/github.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>© 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
